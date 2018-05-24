@@ -1,0 +1,11 @@
+<div class="home-notice-wrapper border-bottom-line">
+  <div class="home-notice-title">
+    <img src="assets/imgs/community_dynamic.png"/>
+  </div>
+  <ion-slides pager class="home-notice-content" loop="true" direction="vertical" autoplay="3000">
+    <ion-slide *ngFor="let item of data.dataSource" (click)="ll_noticeSliderClick(item)">
+      <img src="assets/imgs/community_dynamic_notice.png"/>
+      <p>{{item.title}}</p>
+    </ion-slide>
+  </ion-slides>
+</div>

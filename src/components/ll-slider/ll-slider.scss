@@ -1,0 +1,23 @@
+ll-slider {
+
+  .home-banner {
+    height: 15rem;
+    ion-slide {
+      img {
+        width: 100%;
+        height: 15rem;
+      }
+    }
+  }
+
+  .swiper-pagination-bullet-active{
+    width: 2rem !important;
+    border-radius: .5rem !important;
+    background: white;
+  }
+
+  .swiper-pagination-bullet{
+    background: white;
+    opacity:1;
+  }
+}

@@ -1,0 +1,15 @@
+<!--<div *ngIf="data">-->
+  <ion-slides pager class="home-banner" loop="true" autoplay="3000">
+    <ion-slide *ngFor="let item of data.dataSource,let idx = index" (click)="ll_sliderClick(item,idx)">
+      <img [src]="item" />
+    </ion-slide>
+  </ion-slides>
+<!--</div>-->
+
+<!--<div *ngIf="!data">-->
+  <!--<ion-slides pager class="home-banner" loop="true" autoplay="3000">-->
+    <!--<ion-slide *ngFor="let item of sliderArray,let idx = index" (click)="ll_sliderClick(item,idx)">-->
+      <!--<img [src]="item" />-->
+    <!--</ion-slide>-->
+  <!--</ion-slides>-->
+<!--</div>-->

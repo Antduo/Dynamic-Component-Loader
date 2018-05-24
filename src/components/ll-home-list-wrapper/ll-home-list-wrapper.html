@@ -1,0 +1,12 @@
+<ion-list inset class="home-active-list-wrapper">
+  <ion-list-header>
+    <h2>活动专区</h2>
+  </ion-list-header>
+  <button ion-item clear *ngFor="let item of data.dataSource" (click)="ll_listItemClick(item)" class="border-bottom-line">
+    <ion-thumbnail item-left>
+      <img src={{item.imgsDesc}}>
+    </ion-thumbnail>
+    <h2>{{item.title}}</h2>
+    <p>{{item.cratetTime}}</p>
+  </button>
+</ion-list>

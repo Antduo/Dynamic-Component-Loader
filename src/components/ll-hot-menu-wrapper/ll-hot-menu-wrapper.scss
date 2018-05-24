@@ -1,0 +1,30 @@
+ll-hot-menu-wrapper {
+
+  .home-hotmenu-wrapper {
+    padding: 0;
+    ion-row {
+      padding: 0;
+      margin: 0;
+      ion-col {
+        padding: 0;
+        margin: 0;
+        border-left: 0.5px solid rgb(200,199,203);
+        margin-left: -1px;
+        .button-inner {
+          color: #000;
+        }
+        .icon {
+          color: #1b5547;
+        }
+      }
+    }
+  }
+
+  ion-col{
+    text-align: center;
+    img{
+      height: 5.5rem;
+    }
+  }
+
+}

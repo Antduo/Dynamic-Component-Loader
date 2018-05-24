@@ -1,0 +1,8 @@
+{
+  "name": "Duyuan",
+  "app_id": "b664aa6c",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}

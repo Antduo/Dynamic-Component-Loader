@@ -1,0 +1,13 @@
+<ion-slides [pager]="pager" class="home-menu-wrapper border-bottom-line">
+  <ion-slide *ngFor="let items of dataSource" [ngStyle]="{'height':sliderHeight}" >
+    <ion-grid>
+      <ion-row>
+        <ion-col col-3 *ngFor="let menu of items" (click)="ll_menuWrapperClick(menu)">
+          <img [src]="menu.img" />
+          <p>{{menu.name}}</p>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+    
+  </ion-slide>
+</ion-slides>

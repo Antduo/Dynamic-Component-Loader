@@ -1,0 +1,13 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>平安督院</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+
+  <div *ngIf="itemArray.length !=0" >
+    <ll-container *ngFor="let item of itemArray;" [item]="item"></ll-container>
+  </div >
+
+</ion-content>

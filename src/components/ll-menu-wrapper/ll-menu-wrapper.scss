@@ -1,0 +1,38 @@
+ll-menu-wrapper {
+  .home-menu-wrapper {
+
+    .grid{
+      padding: 0;
+    }
+
+    ion-col {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 8rem;
+      padding: 0;
+      text-align: center;
+    }
+    .swiper-slide {
+      align-items: flex-start;
+      font-size: 1.5rem;
+    }
+    .swiper-slide img {
+      width: 5rem;
+      height: 5rem;
+    }
+  }
+  .swiper-pagination-fraction,
+  .swiper-pagination-custom,
+  .swiper-container-horizontal>.swiper-pagination-bullets {
+    left: 0;
+    bottom: 4px;
+    width: 100%;
+  }
+  .swiper-pagination-bullet-active {
+    background: rgb(92, 215, 209);
+    opacity: 1;
+  }
+
+}

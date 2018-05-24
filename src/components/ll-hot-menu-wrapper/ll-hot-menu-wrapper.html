@@ -1,0 +1,7 @@
+<ion-grid class="home-hotmenu-wrapper border-bottom-line">
+  <ion-row>
+    <ion-col *ngFor="let menu of data.dataSource" (click)="hotMenuClick(menu)">
+      <img [src]="menu.img"/>
+    </ion-col>
+  </ion-row>
+</ion-grid>
