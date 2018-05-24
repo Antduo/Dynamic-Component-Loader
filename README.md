@@ -13,7 +13,7 @@ ionic 之 动态加载组件
 
 当然官网的例子是`angular`写的, 可以翻译成`ionic`形式; 具体的可以查看底部的`demo`
 
-> ###### ionic 容器动态加载组件
+> <h2>ionic 容器动态加载组件</h2>
 1.1  自定义组件 根据需求定义需要的组件
 ![自定义组件](http://upload-images.jianshu.io/upload_images/1482909-ad74ff7092a0750a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
@@ -183,6 +183,4 @@ public configs = [
 
 5. 实现效果
 ![效果图](http://upload-images.jianshu.io/upload_images/1482909-1b9f579c328be268.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-####源码由于文件比较大, 上传到了百度云, 链接:https://pan.baidu.com/s/1htC5aAg 密码:qgp8
 
