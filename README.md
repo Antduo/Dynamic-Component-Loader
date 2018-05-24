@@ -22,6 +22,7 @@ ionic 之 动态加载组件
 定义一个名叫`container`的辅助指令来在模板中标记出有效的插入点。
 
 ![创建container指令](http://upload-images.jianshu.io/upload_images/1482909-fcb484a0d7726174.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 指令代码如下:
 ```
 import {Directive, Input, ViewContainerRef} from '@angular/core';
@@ -187,3 +188,15 @@ public configs = [
 
 ![效果图](http://upload-images.jianshu.io/upload_images/1482909-1b9f579c328be268.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
+<hr>
+<h2>环境:</h2>
+Node : v8.11.1
+npm  : 5.6.0 
+ionic/cli-utils  : 1.19.2
+ionic (Ionic CLI) : 3.20.0
+
+
+
+<h2>运行代码请执行以下命令:</h2>
+npm install
+ionic serve
