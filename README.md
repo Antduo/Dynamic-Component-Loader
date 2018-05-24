@@ -190,13 +190,13 @@ public configs = [
 
 <hr>
 <h2>环境:</h2>
-Node : v8.11.1<br>
-npm  : 5.6.0 <br>
-ionic/cli-utils  : 1.19.2<br>
-ionic (Ionic CLI) : 3.20.0<br>
+<strong>Node : v8.11.1</strong><br>
+<strong>npm  : 5.6.0</strong> <br>
+<strong>ionic / cli-utils  : 1.19.2</strong><br>
+<strong>ionic (Ionic CLI) : 3.20.0</strong><br>
 
 
 
 <h2>运行代码请执行以下命令:</h2>
-npm install<br>
-ionic serve<br>
+<strong>npm install</strong><br>
+<strong>ionic serve</strong><br>
